@@ -1,0 +1,8 @@
+{
+  "colors": {
+    "favourite": "red"
+  },
+  "ConnectionStrings": {
+    "DutchConnString": "Data Source=SREEKANTH-PC\\SQLEXPRESS;Database=DutchTreatDb;Integrated Security=True;MultipleActiveResultSets=true"
+  }
+}
