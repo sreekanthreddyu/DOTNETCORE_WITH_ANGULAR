@@ -4,5 +4,16 @@
   },
   "ConnectionStrings": {
     "DutchConnString": "Data Source=SREEKANTH-PC\\SQLEXPRESS;Database=DutchTreatDb;Integrated Security=True;MultipleActiveResultSets=true"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  },
+  "Tokens": {
+    "Key": "fghrihrih:;dsughih34;ghrrgcbvtw",
+    "Issuer": "localhost",
+    "Audience": "localhost"
   }
 }

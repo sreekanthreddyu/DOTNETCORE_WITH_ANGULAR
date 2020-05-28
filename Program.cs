@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json;
 
 namespace DutchTreat
 {
@@ -27,7 +28,9 @@ namespace DutchTreat
             using (var scope=scopeFactory.CreateScope())
             {
                 var seeder = scope.ServiceProvider.GetService<DutchSeeder>();
-                seeder.Seed();
+                 seeder.SeedAsync().Wait();
+               
+                
             }
             
         }
